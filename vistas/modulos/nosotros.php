@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"></link>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/estilos.css">
 	<title>SinNOmbreAun</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 		<!-- CONTENEDOR DE CABECERA -->
 		<div class="barra-superior contenedor casos-uso">
 			<div class="logo">
-				<h1 class="text-logo"><a href="../index.php">Kawa<span>cho</span></a></h1>	
+				<h1 class="text-logo"><a href="../../index.php">Kawa<span>cho</span></a></h1>	
 			</div>
 			<nav class="navegador-barra">
 				<ul class="lista-navegador">
@@ -45,7 +45,7 @@
 	<!-- SECION UBICACION ACUAL -->
 	<section>
 		<div class="estyle-ubicacion">
-			<h5 class="contenedor"><a href="../index.php"><i class="fas fa-home"></i> Inicio</a> / Nosotros</h5>
+			<h5 class="contenedor"><a href="../../index.php"><i class="fas fa-home"></i> Inicio</a> / Nosotros</h5>
 		</div>
 	</section>
 	
@@ -106,7 +106,7 @@
 <!-- JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
-<script src="js/jqueri3.41.js"></script>
-<script src="js/nosotros.js"></script>
+<script src="../js/jqueri3.41.js"></script>
+<script src="../js/nosotros.js"></script>
 
 </html>	

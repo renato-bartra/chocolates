@@ -7,11 +7,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rr-1.2.6/datatables.min.css"/>
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<link rel="stylesheet" href="/resources/demos/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/estilos.css">
 	<title>SinNOmbreAun</title>
 </head>
 <body>
@@ -22,7 +20,7 @@
 		<!-- CONTENEDOR DE CABECERA -->
 		<div class="barra-superior contenedor casos-uso">
 			<div class="logo">
-				<h1 class="text-logo"><a href="../index.php">Kawa<span>cho</span></a></h1>	
+				<h1 class="text-logo"><a href="../../index.php">Kawa<span>cho</span></a></h1>	
 			</div>
 			<nav class="navegador-barra">
 				<ul class="lista-navegador">
@@ -48,7 +46,7 @@
 	<!-- SECCION UBICACION ACUAL -->
 	<section>
 		<div class="estyle-ubicacion">
-			<h5 class="contenedor"><a href="../index.php"><i class="fas fa-home"></i> Inicio</a> / Usuario</h5>
+			<h5 class="contenedor"><a href="../../index.php"><i class="fas fa-home"></i> Inicio</a> / Usuario</h5>
 		</div>
 	</section>
 
@@ -115,15 +113,15 @@
 </body>
 
 <!-- JS -->
-<script src="js/jqueri3.41.js"></script>
+<script src="../js/jqueri3.41.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rr-1.2.6/datatables.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="plugins/input-mask/jquery.inputmask.js"></script>
-<script src="plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
-<script src="plugins/input-mask/jquery.inputmask.extensions.js"></script>
-<script src="js/plantilla.js"></script>
-<script src="js/usuarios.js"></script>
+<script src="../plugins/input-mask/jquery.inputmask.js"></script>
+<script src="../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+<script src="../plugins/input-mask/jquery.inputmask.extensions.js"></script>
+<script src="../js/plantilla.js"></script>
+<script src="../js/usuarios.js"></script>
 
 </html>	

@@ -25,10 +25,10 @@
 				<ul class="lista-navegador">
 					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="">Como Diseñar</a></li>
 					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="">Diseña ahora</a></li>
-					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="vistas/productos.php">Productos</a></li>
+					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="vistas/modulos/productos.php">Productos</a></li>
 					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="">Video</a></li>
-					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="vistas/nosotros.php">¿Quienes somos?</a></li>
-					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="vistas/usuario.php">Mi cuenta</a></li>
+					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="vistas/modulos/nosotros.php">¿Quienes somos?</a></li>
+					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="vistas/modulos/usuario.php">Mi cuenta</a></li>
 					<li class="enlaces-barra-sup"><a class="navegador navegador-car"><i class="fab fa-opencart"></i></a>
 					</li>
 				</ul>
