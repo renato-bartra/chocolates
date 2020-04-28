@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"></link>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/estilos.css">
 	<title>SinNOmbreAun</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 		<!-- CONTENEDOR DE CABECERA -->
 		<div class="barra-superior contenedor casos-uso">
 			<div class="logo">
-				<h1 class="text-logo"><a href="../index.php">Kawa<span>cho</span></a></h1>	
+				<h1 class="text-logo"><a href="../../index.php">Kawa<span>cho</span></a></h1>	
 			</div>
 			<nav class="navegador-barra">
 				<ul class="lista-navegador">
@@ -45,7 +45,7 @@
 	<!-- SECCION UBICACION ACUAL -->
 	<section>
 		<div class="estyle-ubicacion">
-			<h5 class="contenedor"><a href="../index.php"><i class="fas fa-home"></i> Inicio</a> / Productos</h5>
+			<h5 class="contenedor"><a href="../../index.php"><i class="fas fa-home"></i> Inicio</a> / Productos</h5>
 		</div>
 	</section>
 
@@ -60,14 +60,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/producto_bola.png" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/producto_bola.png" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">Tierra de nueces</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">Tierra de nueces</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span>42.20</span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -88,14 +88,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/producto_fresa.jpg" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/producto_fresa.jpg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">Pieza de freza</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">Pieza de freza</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span>42.20</span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -116,14 +116,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/istockphoto-1129575006-1024x1024.jpg" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/istockphoto-1129575006-1024x1024.jpg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">ChocoKiwi</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">ChocoKiwi</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span>42.20</span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -144,14 +144,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/producto_mamaco.jpg" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/producto_mamaco.jpg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">Mamaco Dulce</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">Mamaco Dulce</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span>42.20</span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -172,14 +172,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/istockphoto-1129575006-1024x1024.jpg" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/istockphoto-1129575006-1024x1024.jpg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">ChocoKiwi</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">ChocoKiwi</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span>42.20</span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -200,14 +200,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/producto_mamaco.jpg" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/producto_mamaco.jpg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">Mamaco Dulce</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">Mamaco Dulce</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span>42.20</span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -236,14 +236,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a  href=modulos/informacion-producto.php"">
-						<img src="img/taza55.jpg" alt="">
+					<a  href="informacion-producto.php">
+						<img src="../img/taza55.jpg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">Chocolate para taza 55% cacao</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">Chocolate para taza 55% cacao</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span></span></p>
 						<p class="precio">S/ <span>35.50</span></p>
@@ -264,14 +264,14 @@
 			<!-- Seccion producto -->
 			<div class="produc-predisenado shadow-negro">
 				<div class="tumbnail-product">
-					<a href="modulos/informacion-producto.php">
-						<img src="img/taza100.jpeg" alt="">
+					<a href="informacion-producto.php">
+						<img src="../img/taza100.jpeg" alt="">
 					</a>
 				</div>
 				
 				<!-- Seccion Info del producto para compra -->
 				<div class="product-inf-compra">
-					<h3 class="p-name-product"><a href="modulos/informacion-producto.php">Chocolate para taza 100% cacao</a></h3>
+					<h3 class="p-name-product"><a href="informacion-producto.php">Chocolate para taza 100% cacao</a></h3>
 					<div class="precios">
 						<p class="descuento">S/ <span></span></p>
 						<p class="precio">S/ <span>35.50</span></p>
