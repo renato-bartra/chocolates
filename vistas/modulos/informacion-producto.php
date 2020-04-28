@@ -24,9 +24,9 @@
 			<nav class="navegador-barra">
 				<ul class="lista-navegador">
 					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="">Diseña ahora</a></li>
-					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="../productos.php">Productos</a></li>
-					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="../nosotros.php">¿Quienes somos?</a></li>
-					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="../usuario.php">Mi cuenta</a></li>
+					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="productos.php">Productos</a></li>
+					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="nosotros.php">¿Quienes somos?</a></li>
+					<li class="enlaces-barra-sup"><a class="navegador nav-trans" href="usuario.php">Mi cuenta</a></li>
 					<li class="enlaces-barra-sup"><a class="navegador navegador-car"><i class="fab fa-opencart"></i></a>
 					</li>
 				</ul>
@@ -45,7 +45,7 @@
 	<!-- SECION UBICACION ACUAL -->
 	<section>
 		<div class="estyle-ubicacion">
-			<h5 class="contenedor"><a href="../index.php"><i class="fas fa-home"></i> Inicio</a> / Nosotros</h5>
+			<h5 class="contenedor"><a href="../../index.php"><i class="fas fa-home"></i> Inicio</a> / Nosotros</h5>
 		</div>
 	</section>
 	
