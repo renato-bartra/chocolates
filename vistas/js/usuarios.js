@@ -150,7 +150,7 @@ $(".btn-conf-user").click( function(){
 							'</div>'+
 
 							'<!-- Zona botones de piecera -->'+
-							'<div class="botones-piecera">'+
+							'<div class="separador-botones texto-derecha">'+
 								'<button type="submit" class="boton btn-verde">Guardar Cambios &nbsp;<span class="far fa-check-circle"></span></button>'+
 							'</div>'+
 						'</div>'+

@@ -68,6 +68,32 @@ select, button {
     box-sizing: border-box;
 }
 
+legend,label {
+	font-size: 1.2rem;
+}
+
+input[type="number"]{
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+textarea{
+	height: 15rem;
+}
+
+fieldset{
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+fieldset:last-of-type{
+	margin-bottom: 0;
+}
+
+fieldset legend{
+	font-size: 1.4rem;
+	color: rgba(0,0,0,.7);
+}
+
 .checks-inputs input{
     width: 3rem;
 }
@@ -108,6 +134,14 @@ img{
 
 .centrar-texto{
 	text-align: center;
+}
+
+.texto-derecha{
+	text-align: right;
+}
+
+.texto-izquierda{
+	text-align: left;
 }
 
 .fm-300{
@@ -171,6 +205,7 @@ img{
 
 .zona-inputs .icono-input {
 	border-radius: 0;
+	padding: .3rem 0;
 	color: #FFFFFF;
 	background-color: #7f5554;
 	font-size: 1.5rem;
@@ -181,14 +216,15 @@ img{
 	justify-content: space-around;
 }
 
-.zona-inputs .texto-input {
-  border-radius: 0;
-  box-shadow: none;
-  border: 1px solid rgba(0,0,0,.4);
-  background-color: rgba(255,255,255, .9);
-  width: 100%;
-  font-size: 1.5rem;
-  font-weight: 300;
+.zona-inputs .texto-input,
+.input-contato {
+  	border-radius: 0;
+  	box-shadow: none;
+  	border: 1px solid rgba(0,0,0,.4);
+  	background-color: rgba(255,255,255, .9);
+  	width: 100%;
+  	font-size: 1.5rem;
+  	font-weight: 300;
 }
 .texto-input:focus {
   border-color: #3c8dbc;
@@ -207,10 +243,13 @@ img{
 	font-weight: 300;
 }
 
-.botones-piecera{
+.separador-botones{
 	font-size: 1.3rem;
-	text-align: right;
-	padding: .7rem 0;
+	padding: 2rem 0;
+}
+
+.contenido-ajustado{
+	max-width: 80rem;
 }
 
 /*=============================================
@@ -542,6 +581,8 @@ nav > ul > li > .nav-trans:hover:after{
 }
 
 .paso-comoDisenar{
+	/*flex: 0 0 calc(33.3% - 1rem);*/ /*FLEX une flex grow, shrink y basis en uno solo*/
+	flex-grow: 0;
 	flex-shrink: 0;
 	flex-basis: calc(33.3% - 1rem);
 	margin-top: 1.5rem;
@@ -1008,6 +1049,25 @@ footer{
 	display: grid;
     grid-template-columns: 48% 30%;
     justify-content: center;
+}
+
+/*=====================================================
+=                    PAGINA DE CONTACTO                =
+=====================================================*/
+
+form label{
+	display: block;
+}
+
+.input-contato{
+	display: block;
+	padding: 1rem 0;
+	margin: .2rem 0 1.3rem 0;
+	width:99%;
+}
+
+.botones-contactenos{
+
 }
 
 /*=====================================================

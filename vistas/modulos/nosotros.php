@@ -80,7 +80,7 @@
 		<h1 class="titulo-section">Mas sobre nosotros</h1>
 		<div class="zona-nosotros">
 			<div class="img-nosotros">
-				<img src="img/img_nosotros.jpg" alt="maestros chocolateros">
+				<img src="../img/img_nosotros.jpg" alt="maestros chocolateros">
 			</div>
 			<div class="info-nosotros">
 				<blockquote>8 años de expriencia</blockquote>
@@ -94,7 +94,7 @@
 	<!-- SECCION CONTACTENOS -->
 	<section class="contenedor separador centrar-texto">
 		<p>Para quejas o reclamos, por favor enviar un formulario a traves del siguiente boton:</p><br><br>
-		<a href="" class="boton button-disenar">CONTACTENOS</a>
+		<a href="contacto.php" class="boton button-disenar">CONTACTENOS</a>
 	</section>
 
 	<section class="contenedor footer-nosotros">

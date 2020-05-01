@@ -260,7 +260,7 @@
 
 			<!-- Seccion boton ver mas productos -->
 			<div class="buton-vermas">
-				<a class="boton btn-vermas" href="vistas/productos.php">Ver mas <span><i class="fas fa-arrow-right"></i></span></a>
+				<a class="boton btn-vermas" href="vistas/modulos/productos.php">Ver mas <span><i class="fas fa-arrow-right"></i></span></a>
 			</div>
 		</div>
 	</section>

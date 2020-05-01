@@ -4,17 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- FONTAWESOME -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"></link>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css">
-	<!-- DATATABLES -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rr-1.2.6/datatables.min.css"/>
-	<!-- DATEPICKER -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
-    <!-- GOOGLEFONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
-	<!-- ESTILOS PROPIOS -->
 	<link rel="stylesheet" href="../css/normalize.css">
 	<link rel="stylesheet" href="../css/estilos.css">
 	<title>SinNOmbreAun</title>
@@ -42,51 +34,73 @@
 		</div>
 	</header>
 	
-	<!-- SECCION MINIBANER -->
+	<!-- SECION MINIBANER -->
 	<section class="mini-banner">
 		<div class="contenedor">
-			<h1 class="title-ubicacion">Hola Sharon</h1>
+			<h1 class="title-ubicacion">Contacte con nosotros</h1>
 		</div>
 		
 	</section>
 	
-	<!-- SECCION UBICACION ACUAL -->
+	<!-- SECION UBICACION ACUAL -->
 	<section>
 		<div class="estyle-ubicacion">
-			<h5 class="contenedor"><a href="../../index.php"><i class="fas fa-home"></i> Inicio</a> / Usuario</h5>
+			<h5 class="contenedor"><a href="../../index.php"><i class="fas fa-home"></i> Inicio</a> / Nosotros</h5>
 		</div>
 	</section>
 
-	<section class="contenedor"><br>
-		<p class="p-compra-pro-black">Bienvenida Sharon, Si desea visualizar sus pedidos, realizar cambios en su cuenta, usar tus vales de consumo o administrar sus direcciones de faturación y pedido, precione click en las siguientes opciones:</p>
-	</section>
-	
-	<!-- SECCION DATOS DE MI CUENTA -->
-	<section class="contenedor">
+	<!-- SECCION FOMRULARIO DE CONTACTO -->
+	<main class="contenedor contenido-ajustado">
+		<h1 class="fm-300 centrar-texto">Llenar formulario de contacto</h1>
+		<form action="" >
 
-		<!-- Zona informacion del usuario y botones -->
-		<div class="datos-usuario">
-			<div class="botones-usuario">
-				<ul class="list-botones">
-					<li><a class="boton boton-usuario shadow-negro btn-historial"><i class="far fa-list-alt"></i><span>Historial de pedidos</span></a></li>
-					<li><a class="boton boton-usuario shadow-negro"><i class="fas fa-shopping-cart"></i><span>Carrito de compras</span></a></li>
-					<li><a class="boton boton-usuario shadow-negro"><i class="fas fa-map-marked-alt"></i><span>Mis direcciones</span></a></li>
-					<li><a class="boton boton-usuario shadow-negro"><i class="fas fa-money-check-alt"></i><span>Vales de consumo</span></a></li>
-					<li><a class="boton boton-usuario shadow-negro btn-conf-user"><i class="fas fa-user-cog"></i><span>Datos del usuario</span></a></li>
-				</ul>
-			</div>
-
-			<!-- Zona Inputs para ingresar datos -->
-			<div class="info-usuario">
-				
-			</div>
-		</div>
-
-		<!-- Zona Historial de pedidos -->
-		<div class="historial-pedidos">
+			<fieldset class="">
+				<legend>Información personal</legend>
 			
-		</div>
-	</section>
+				<!-- Ingresar Nombre -->
+				<label for="nuevoNombre">Nombre</label>
+				<input type="text" id="nuevoNombre" class="input-contato" name="nuevoNombre" placeholder="Ingresa tu nombre" value="Sharon Julvic">
+
+				<!-- Ingresar Apellido -->
+				<label for="nuevoApellido">Aprellido</label>
+				<input type="text" id="nuevoApellido" class="input-contato" name="nuevoApellido" placeholder="Ingresa tu aprellido" value="Pinedo Arce">
+
+				<!-- Ingresar EMAIL -->
+				<label for="nuevoEmail">Email</label>
+				<input type="email" id="nuevoEmail" class="input-contato" name="nuevoEmail" placeholder="Ingresa tu email" value="rbr1594@gmail.com">
+
+				<!-- Ingresar Telefono -->
+				<label for="nuevoTelefono">Telefono</label>
+				<input type="tel" id="nuevoTelefono" class="input-contato" class="mascara-telefono" name="nuevoTelefono">
+			</fieldset>	
+
+			<fieldset>
+				<legend>Contacto</legend>
+
+				<!-- Ingresar Opcion de compra o vende -->
+				<label for="nuevoMetodoContacto">Metodo de contacto</label>
+				<select name="" id="nuevoMetodoContacto" class="input-contato">
+					<option value="" disabled selected>-- Sleccione --</option>
+					<option value="queja">Queja</option>
+					<option value="reclamo">Reclamo</option>
+					<option value="compra">Compra</option>
+					<option value="vende">Vende</option>
+				</select>
+
+				<div class="metodo-contacto"></div>
+
+				<!-- Ingresar Mensaje -->
+				<label for="ingresaMensaje">Mensaje</label>
+				<textarea id="ingresaMensaje" class="input-contato" name="ingresaMensaje"></textarea>
+			</fieldset>
+
+			<div class="centrar-texto separador-botones">
+				<button type="submit" class="boton button-disenar">Enviar</button>
+			</div>
+		</form>
+		
+	</main>
+	
 
 	<footer>
 		<div class="contenedor zona-piecera">
@@ -121,11 +135,9 @@
 
 <!-- JS -->
 <script src="../js/jqueri3.41.js"></script>
-<!-- FontAwesomw -->
+<!-- FontAwesome -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
-<!-- Datatables -->
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rr-1.2.6/datatables.min.js"></script>
 <!-- InputMask -->
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="../plugins/input-mask/jquery.inputmask.js"></script>
@@ -133,6 +145,6 @@
 <script src="../plugins/input-mask/jquery.inputmask.extensions.js"></script>
 <!-- JS Propios -->
 <script src="../js/plantilla.js"></script>
-<script src="../js/usuarios.js"></script>
+<script src="../js/contacto.js"></script>
 
-</html>	
+</html>

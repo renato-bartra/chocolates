@@ -34,9 +34,8 @@ $( function() {
 	$( ".escoje-fecha" ).datepicker();
 } );*/
 
-/*Inputmarsk
+/*Inputmarsk*/
 $(document).ready(function(){
-  $(".mascara-fecha").inputmask("99/99/9999",{ "clearIncomplete": true });
-  $(".mascara-celular").inputmask("999-999-999",{ "clearIncomplete": true });
-});*/
-
+  $(".mascara-fechas").inputmask("99/99/9999",{ "clearIncomplete": true });
+  $(".mascara-telefono").inputmask("999-999-999",{ "clearIncomplete": true });
+});
