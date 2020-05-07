@@ -71,7 +71,7 @@
 
 				<!-- Ingresar Telefono -->
 				<label for="nuevoTelefono">Telefono</label>
-				<input type="tel" id="nuevoTelefono" class="input-contato" class="mascara-telefono" name="nuevoTelefono">
+				<input type="tel" id="nuevoTelefono" class="input-contato mascara-telefono" name="nuevoTelefono">
 			</fieldset>	
 
 			<fieldset>

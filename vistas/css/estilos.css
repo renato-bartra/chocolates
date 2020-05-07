@@ -124,14 +124,6 @@ img{
 	margin-bottom: 3rem;
 }
 
-.button-comprar{
-	font-size: 1.5rem;
-}
-
-.button-disenar{
-	font-size: 1.5rem;
-}
-
 .centrar-texto{
 	text-align: center;
 }
@@ -266,7 +258,8 @@ img{
 /* Seccion banner */
 
 .button-disenar{
-	background: #6d452f; /*b47804;*/
+	font-size: 1.5rem;
+	background: #b47804; /*6d452f*/
 	color: #FFFFFF;
 	padding: 1.5rem 2.1rem;
 	font-size: 1.6rem;
@@ -280,6 +273,7 @@ img{
 }
 
 .button-comprar{
+	font-size: 1.5rem;
 	background-color: #DFDFDF;
 	color: #251717;
 	padding: 1.5rem 3.4rem;
@@ -294,7 +288,7 @@ img{
 }
 
 .button-disenar:hover{
-	background-color: #7f5554;
+	background-color: #e19605; /*7f5554*/
 }
 
 .button-comprar:hover{
@@ -577,7 +571,7 @@ nav > ul > li > .nav-trans:hover:after{
 .pasos-how-diseñar{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-wrap: wrap; /* Se usa para que cada hijo tenga el tamaño asigando y si agregas mas hijo se posicionen por debajo*/
 }
 
 .paso-comoDisenar{
@@ -1073,6 +1067,8 @@ form label{
 /*=====================================================
 =                    PAGINA RESPONSIVA                =
 =====================================================*/
+/*Celular 480px --- tablet 768px --- laptop 992 ---- pc 1200px*/
+
 @media (max-width: 770px){
 	/*  ZONA BANER  */
 	.section-banner-l{
@@ -1138,6 +1134,14 @@ form label{
 }
 
 @media (max-width: 450px){
+
+	/*  PASOS COMO DISEÑAR */
+	.pasos-how-diseñar{
+		justify-content: space-around;
+	}
+	.paso-comoDisenar{
+		flex-basis: 95%;
+	}
 	
 	/*  TARJETA DE LOS PRODUCTOS */
 	.produc-predisenado{
