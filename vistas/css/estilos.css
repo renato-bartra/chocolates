@@ -1,5 +1,10 @@
 html{
 	font-size: 62.5%; /* Reset para rem    1 rem = 10px */
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  	box-sizing: inherit;
 }
 
 body{
@@ -215,6 +220,8 @@ img{
   	border: 1px solid rgba(0,0,0,.4);
   	background-color: rgba(255,255,255, .9);
   	width: 100%;
+  	padding-left: 0.8rem;
+  	padding-right: 0.8rem;
   	font-size: 1.5rem;
   	font-weight: 300;
 }
@@ -484,6 +491,17 @@ nav > ul > li > .nav-trans:hover:after{
 	width: 60%;
 }
 
+@media (max-width: 770px){
+
+	.section-banner-l{
+		width: 0;
+	}
+
+	.section-banner-r{
+		width: 100%;
+	}
+}
+
 .zona-der-banner{
 	display: grid;
 	grid-template-columns: 56% 30%;
@@ -582,6 +600,15 @@ nav > ul > li > .nav-trans:hover:after{
 	margin-top: 1.5rem;
 }
 
+@media (max-width: 450px){
+	.pasos-how-diseñar{
+		justify-content: space-around;
+	}
+	.paso-comoDisenar{
+		flex-basis: 95%;
+	}
+}
+
 .paso-comoDisenar h2{
 	text-transform: uppercase;
 }
@@ -626,6 +653,7 @@ nav > ul > li > .nav-trans:hover:after{
 	padding-top: 3rem;
 }
 
+/*  TARJETA DE LOS PRODUCTOS */
 .produc-predisenado{
 	display: grid;
 	grid-template-columns: 1fr;
@@ -634,7 +662,7 @@ nav > ul > li > .nav-trans:hover:after{
 	border-radius: 0.5rem;
 	padding: 1rem;
 	box-shadow: 0 0 3.56px rgba(0,0,0,.22);
-	width: 17.4rem;
+	width: 20rem;
 	margin: 0 0 3rem 3.7rem;
 	transition: 200ms;
 }
@@ -646,12 +674,44 @@ nav > ul > li > .nav-trans:hover:after{
 	height: 12rem;
 }
 
-.tumbnail-product a img{
-	max-height: 12rem;
-}
-
 .product-inf-compra{
 	margin: 0;
+}
+
+.agregar-carrito{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid rgba(0,0,0,.12);
+	padding-top: 8%;
+	padding-bottom: 2%; 
+}
+
+@media (max-width: 450px){
+	
+	/*  TARJETA DE LOS PRODUCTOS */
+	.produc-predisenado{
+		width: 82.5%;
+		display: grid;
+		grid-template-areas: "tumbnail info" "agregar agregar";
+		grid-template-columns: 40% 60%;
+		justify-content: space-around;
+		align-items: center;
+		grid-column-gap: 1rem;
+	}
+	.tumbnail-product{ grid-area: tumbnail;}
+	.product-inf-compra{ grid-area: info;}
+	.agregar-carrito{ 
+		grid-area: agregar;
+		display: grid;
+	    grid-template-columns: 48% 30%;
+	    border-top: 1px solid rgba(0,0,0,.12);
+	    padding-top: 6%;
+	    padding-bottom: 2%;
+	    justify-content: center;}
+}
+
+.tumbnail-product a img{
+	max-height: 12rem;
 }
 
 .p-name-product{
@@ -693,14 +753,6 @@ nav > ul > li > .nav-trans:hover:after{
 	line-height: 2rem;
 }
 
-.agregar-carrito{
-	display: flex;
-	justify-content: space-between;
-	border-top: 1px solid rgba(0,0,0,.12);
-	padding-top: 8%;
-	padding-bottom: 2%; 
-}
-
 .inp-cantidad{
 	width: 33%;
 	font-size: 1.7rem;
@@ -730,6 +782,18 @@ nav > ul > li > .nav-trans:hover:after{
 
 .section-blog-testimoniales .testimonial{
 	flex-basis: calc(45% - 5rem);
+}
+
+@media (max-width: 450px){
+
+	/*  TESTIMONIALES  */
+	.section-blog-testimoniales .blog{
+		flex-basis: 100%;
+	}
+
+	.section-blog-testimoniales .testimonial{
+		flex-basis: 100%;
+	}
 }
 
 .entrada-blog{
@@ -865,6 +929,25 @@ footer{
 
 .footer-derechos{
 	margin-top: 5rem;
+}
+
+@media (max-width: 720px){
+
+	/*  PIECERA  */
+	.zona-piecera{
+		justify-content: space-around;
+		text-align: center;
+	}
+	.footer-derechos{
+		margin-top: 1rem;
+	}
+	
+}
+
+@media (max-width: 650px){
+	.link-siguenos{
+		width: 100%;
+	}
 }
 
 .footer-nosotros{
@@ -1011,6 +1094,17 @@ footer{
 	grid-column-gap: 4rem;
 }
 
+@media (max-width: 450px){
+
+	/*  PAGINA INFORMACION DEL PRODUCTO */
+	.zona-inf-producto{
+		grid-template-columns: 1fr;
+		justify-content: space-around;
+		grid-template-columns: 90%;
+		grid-row-gap: 1rem;
+	}
+}
+
 .nutricional-inf table{
 	border-collapse: collapse;
 	width: 100%;
@@ -1055,7 +1149,7 @@ form label{
 
 .input-contato{
 	display: block;
-	padding: 1rem 0;
+	padding: 0.7rem 0.8rem;
 	margin: .2rem 0 1.3rem 0;
 	width:99%;
 }
@@ -1069,17 +1163,7 @@ form label{
 =====================================================*/
 /*Celular 480px --- tablet 768px --- laptop 992 ---- pc 1200px*/
 
-@media (max-width: 770px){
-	/*  ZONA BANER  */
-	.section-banner-l{
-		width: 0;
-	}
 
-	.section-banner-r{
-		width: 100%;
-	}
-
-}
 @media (max-width: 740px){
 
 	/*  PAGINA USUARIOS  */
@@ -1101,84 +1185,4 @@ form label{
 		grid-template-columns: 90%;
 	}
 	
-}
-
-@media (max-width: 720px){
-
-	/*  PIECERA  */
-	.zona-piecera{
-		justify-content: space-around;
-		text-align: center;
-	}
-	.footer-derechos{
-		margin-top: 1rem;
-	}
-	
-}
-
-@media (max-width: 650px){
-
-	/*  PIECERA  */
-	.zona-piecera{
-		justify-content: space-around;
-		text-align: center;
-	}
-	.footer-derechos{
-		margin-top: 1rem;
-	}
-	.link-siguenos{
-		width: 100%;
-
-	}
-	
-}
-
-@media (max-width: 450px){
-
-	/*  PASOS COMO DISEÑAR */
-	.pasos-how-diseñar{
-		justify-content: space-around;
-	}
-	.paso-comoDisenar{
-		flex-basis: 95%;
-	}
-	
-	/*  TARJETA DE LOS PRODUCTOS */
-	.produc-predisenado{
-		width: 82.5%;
-		display: grid;
-		grid-template-areas: "tumbnail info" "agregar agregar";
-		grid-template-columns: 40% 60%;
-		justify-content: space-around;
-		align-items: center;
-		grid-column-gap: 1rem;
-	}
-	.tumbnail-product{ grid-area: tumbnail;}
-	.product-inf-compra{ grid-area: info;}
-	.agregar-carrito{ 
-		grid-area: agregar;
-		display: grid;
-	    grid-template-columns: 48% 30%;
-	    border-top: 1px solid rgba(0,0,0,.12);
-	    padding-top: 6%;
-	    padding-bottom: 2%;
-	    justify-content: center;}
-
-	/*  TESTIMONIALES  */
-	.section-blog-testimoniales .blog{
-		flex-basis: 100%;
-	}
-
-	.section-blog-testimoniales .testimonial{
-		flex-basis: 100%;
-	}
-
-	/*  PAGINA INFORMACION DEL PRODUCTO */
-	.zona-inf-producto{
-		display: grid;
-		grid-template-columns: 1fr;
-		justify-content: space-around;
-		grid-template-columns: 90%;
-		grid-row-gap: 1rem;
-	}
 }
